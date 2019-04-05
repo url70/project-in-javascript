@@ -1,5 +1,5 @@
 const car = document.getElementById('car');
-car.style.left='200%';
+car.style.right='200%';
 
 
 // for (let i=0; i<=90;i++){
@@ -10,7 +10,7 @@ car.style.left='200%';
    var elem = document.getElementById('car'), pos = 0,
    timer = setInterval(function() {
        pos++;
-       elem.style.left = pos+"px";
+       elem.style.right = pos+"px";
        if( pos == 200) clearInterval(timer);
    },25);
 })();
